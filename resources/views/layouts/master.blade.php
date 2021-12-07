@@ -15,8 +15,8 @@
     <body>
 
         <div class="container">
-            <div class="row mt-5">
-                <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 mt-3">
                     <p class="text-muted text-center m-0">Welcome</p>
                     <h3 class="fw-bold fs-4 text-center">My simple web-application</h3>
                     <p class="fw-bold text-center">Built with Laravel</p>
@@ -58,11 +58,11 @@
         </div>
 
         {{-- footer section --}}
-        <div class="bg-dark">
+        <div class="bg-dark footer">
             <div class="container">
                 <div class="row">
                 <div class="col-md-12 text-center">
-                <p class="text-light mt-3">Copyright 2021. Made by Aaron. Follow me on <a href="http://github.com/Aaron-Muuo" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Github: Aaron-Muuo" style="text-decoration: none">github.</a></p>
+                <p class="text-light mt-3">Copyright 2021. Made by Aaron. Follow me on <a href="http://github.com/Aaron-Muuo" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Github: Aaron-Muuo" style="text-decoration: none" target="_blank">github.</a></p>
                 </div>
                 </div>
             </div>

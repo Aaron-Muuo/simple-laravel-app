@@ -14,6 +14,5 @@ use App\Http\Controllers\PostsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get("/", function(){
-    return view("home");
-});
+Route::get("/", [PagesController::class,  "index"]);
+Route::get("/blog", [PagesController::class,  "blog"]);
