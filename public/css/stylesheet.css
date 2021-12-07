@@ -14,6 +14,10 @@ html {
       font-family: "roboto-medium";
       src: url("../fonts/roboto-medium.ttf");
     }
+    @font-face {
+      font-family: "almond";
+      src: url("../fonts/almond.ttf");
+    }
   
   body{
   margin: 0;
@@ -22,7 +26,7 @@ html {
   position: relative;
   min-height: 100vh;
   background-color: #F7F7F7;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   }
   .footer{
     width: 100%;
@@ -35,4 +39,13 @@ html {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
     transform: scale(.98);
 }
-  
+.theme-font{
+  font-family: "almond";
+}
+.profile-img{
+  width: 40px; object-fit:cover;
+  width: 40px;
+  object-fit: cover;
+  border: 2px solid #dbb316;
+  border-radius: 20px;
+}

@@ -11,24 +11,23 @@
         <link href="{{asset('css/all.css')}}" rel="stylesheet">
         <link href="{{asset('css/stylesheet.css')}}" rel="stylesheet">
 
+        @yield('meta')
     </head>
     <body>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mt-3">
-                    <p class="text-muted text-center m-0">Welcome</p>
-                    <h3 class="fw-bold fs-4 text-center">My simple web-application</h3>
+                    <h2 class="fw-bold fs-4 text-center theme-font fs-1"><img src="{{asset('img/tales.png')}}" alt="" style="width: 120px"></h2>
                     <p class="fw-bold text-center">Built with Laravel</p>
                     
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                     <div class="container">
-                        <a class="navbar-brand" href="http://github.com/Aaron-Muuo" ><img src="{{asset('img/logo.png')}}" alt="" style="width: 80px"></a>
+                        <a class="navbar-brand" href="http://github.com/Aaron-Muuo" ><img src="{{asset('img/logo 2.png')}}" alt="" style="width: 30px"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -50,8 +49,7 @@
                         </div>
                     </div>
                     </nav>
-                </div>
-            </div>
+
 
             @yield('content')
 
