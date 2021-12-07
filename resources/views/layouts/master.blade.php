@@ -28,7 +28,7 @@
                 <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
-                        <a class="navbar-brand" href="http://github.com/Aaron-Muuo" >A.M</a>
+                        <a class="navbar-brand" href="http://github.com/Aaron-Muuo" ><img src="{{asset('img/logo.png')}}" alt="" style="width: 80px"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>

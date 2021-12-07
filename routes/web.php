@@ -16,3 +16,4 @@ use App\Http\Controllers\PostsController;
 */
 Route::get("/", [PagesController::class,  "index"]);
 Route::get("/blog", [PagesController::class,  "blog"]);
+Route::get("/signin", [PagesController::class, "signin"]);

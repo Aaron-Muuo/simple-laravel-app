@@ -16,6 +16,10 @@ class PagesController extends Controller
         $posts = DB::table('posts')->get();
 
         return view("blog", ["posts"=>$posts]);
-        //dd($posts);
+        
+    }
+
+    public function signin(){
+        return view("signin");
     }
 }
